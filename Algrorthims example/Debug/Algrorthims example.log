@@ -1,0 +1,4 @@
+﻿  Examples.cpp
+c:\users\s178029\documents\visual studio 2015\projects\algrorthims example\algrorthims example\examples.cpp(46): warning C4715: 'Cell::operator==': not all control paths return a value
+  Algrorthims example.vcxproj -> c:\users\s178029\documents\visual studio 2015\Projects\Algrorthims example\Debug\Algrorthims example.exe
+  Algrorthims example.vcxproj -> c:\users\s178029\documents\visual studio 2015\Projects\Algrorthims example\Debug\Algrorthims example.pdb (Partial PDB)
