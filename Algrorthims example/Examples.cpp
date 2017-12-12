@@ -1,7 +1,7 @@
 #include<iostream>
 #include<assert.h>
 
-////Longest Value in the collection of.
+//Longest Value in the collection of.
 //
 //int SearchLargest(int*Collection, int numberofItems)
 //{
@@ -27,7 +27,7 @@ public:
 	char *m_Token;
 	Cell()
 	{
-		m_Token[0];
+		m_Token;
 	};
 	Cell(char *Token)
 	{
@@ -54,73 +54,90 @@ public:
 	Column()
 	{
 		m_Cells[7];
+		m_Height;
 	}
 	Column(int Height)
 	{
-		m_Height=Height;
-
+		m_Height = Height;
 	}
-	int mLastOccupied(int)
-	{
-		int i;
-		for (m_Cells[i]; i < 0; i++)
+	int mLastOccupied(int Last)
+	{//Checks the last cell that a token was placed in.
+		int LO;
+		LO = Last;
+		for (m_Cells[LO]; LO <= 5; LO++)
 		{
-			return i;
+			return Last;
 		}
-		//
-		//	}
-		//
-		//	bool isFull()
-		//	{
-		//		int i;
-		//		if (m_Cells[15])
-		//	}
-		//	//bool PlaceToken(char Token)
-		//	//{
-		//	//	Cell m_Cells;
-		//	//	for (m_Cells;);
-		//
-		//	//}
-		//};
-		//int main()
-		//{
-		//
-		//	Cell testNum1;	Cell testNum2;
-		//	bool test1 =  testNum1 == testNum2;
-		//	assert((testNum1==);
+	}
+
+	bool isFull()
+	{
+		{
+			int i;
+			for (m_Cells[i]; i = 5; i++)
+			i = m_Height;
+			return true;
+		}
+		return false;
+	}
+	bool PlaceToken(char Token)
+	{
+		// If there was no piece in current cells and the said cell was selected return true else false.
+		int i;
+		for (m_Cells[i] = NULL; i = NULL;)
+		{
+			return true;
+		}
+		return false;
+	}
+
+};
+class ConnectFour
+{
+public:
+	Column *m_Column()
+	{
+		Cell m_Cells[6];
+		m_Cells[6];
+	}
+	char ActiveToken;
+	int m_NumofCols;
+	int *m_ColHeigth;
+	bool PlacePiece(int col)
+		//Refers to the PlaceToken bool to check if cell is epmty to allow piece to be placed.
+	{
+	Column column;
+	column.PlaceToken('X');
+	}
+	bool Update()
+		{
+				ActiveToken = 'X';
+				switch (ActiveToken)
+				{
+				default:ActiveToken = 'O';
+					break;
+				}
+				Cell m_Cell;
+				Column column;
+				ConnectFour Grid;
+				column.isFull();
+				column.PlaceToken('X');
+				Grid.PlacePiece(1);
+
+
+		}
+	bool CheckVictory()
+	{
+	Cell m_Cell; Column Cols;
+	Cols.isFull();
+	m_Cell==m_Cell;
+
 	}
 };
-		class ConnectFour
-		{
-		public:
-			Column *m_Column()
-			{
-				Cell m_Cells[6];
-				m_Cells[6];
-			}
-			char ActiveToken;
-			int m_NumofCols;
-			int *m_ColHeigth;
-			ConnectFour(int *numOfCols, int Height)
-			{
-				m_NumofCols = numOfCols[7];
-				m_ColHeigth[6] = Height;
-				for (ActiveToken; PlacePiece;)
-			{
 
-			}
+int main()
+{
+	ConnectFour Grid;
 
-			}
-			bool PlacePiece(int col)
-			{
 
-			}
-			bool Update()
-			{
-
-			}
-			bool CheckVictory()
-			{
-
-			}
-		};
+}

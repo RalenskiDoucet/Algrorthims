@@ -22,7 +22,7 @@
     <ProjectGuid>{B4C4ABAC-C555-4E32-A66D-989065ABA68D}</ProjectGuid>
     <RootNamespace>Algrorthimsexample</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>Algorithms example</ProjectName>
+    <ProjectName>Connect4</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
