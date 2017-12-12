@@ -111,6 +111,7 @@ public:
 	}
 	bool Update()
 		{
+
 				ActiveToken = 'X';
 				switch (ActiveToken)
 				{

@@ -1,7 +1,6 @@
 ﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Algrorthims example.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Examples.cpp
-c:\users\s178029\documents\visual studio 2015\projects\algrorthim\algrorthims example\examples.cpp(119): warning C4065: switch statement contains 'default' but no 'case' labels
-c:\users\s178029\documents\visual studio 2015\projects\algrorthim\algrorthims example\examples.cpp(140): warning C4101: 'Grid': unreferenced local variable
-cl : Command line warning D9028: minimal rebuild failure, reverting to normal build
+c:\users\s178029\documents\visual studio 2015\projects\algrorthim\algrorthims example\examples.cpp(120): warning C4065: switch statement contains 'default' but no 'case' labels
+c:\users\s178029\documents\visual studio 2015\projects\algrorthim\algrorthims example\examples.cpp(141): warning C4101: 'Grid': unreferenced local variable
   Algrorthims example.vcxproj -> C:\Users\s178029\Documents\Visual Studio 2015\Projects\Algrorthim\Debug\Connect4.exe
   Algrorthims example.vcxproj -> C:\Users\s178029\Documents\Visual Studio 2015\Projects\Algrorthim\Debug\Connect4.pdb (Partial PDB)
